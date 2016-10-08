@@ -495,8 +495,6 @@
 			isa = PBXGroup;
 			children = (
 				65F2464A1DA8B9A500A3BE31 /* AFNetworking */,
-				65F2465E1DA8B9A500A3BE31 /* ASIHTTP */,
-				65F246621DA8B9A500A3BE31 /* ASIHTTPRequest2 */,
 				65F246631DA8B9A500A3BE31 /* MD5 */,
 				65F246661DA8B9A500A3BE31 /* MJRefresh */,
 				65F246931DA8B9A500A3BE31 /* SBJson */,
@@ -529,44 +527,6 @@
 				65F2465D1DA8B9A500A3BE31 /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		65F2465E1DA8B9A500A3BE31 /* ASIHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				65F2465F1DA8B9A500A3BE31 /* CloudFiles */,
-				65F246601DA8B9A500A3BE31 /* S3 */,
-				65F246611DA8B9A500A3BE31 /* Tests */,
-			);
-			path = ASIHTTP;
-			sourceTree = "<group>";
-		};
-		65F2465F1DA8B9A500A3BE31 /* CloudFiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CloudFiles;
-			sourceTree = "<group>";
-		};
-		65F246601DA8B9A500A3BE31 /* S3 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = S3;
-			sourceTree = "<group>";
-		};
-		65F246611DA8B9A500A3BE31 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		65F246621DA8B9A500A3BE31 /* ASIHTTPRequest2 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ASIHTTPRequest2;
 			sourceTree = "<group>";
 		};
 		65F246631DA8B9A500A3BE31 /* MD5 */ = {
