@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  wywl
+//
+//  Created by Tommy on 10/8/16.
+//  Copyright © 2016 ys. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h"
+#import "TGCommon.h"
+#import "TGManager.h"
+#import "TGViewController.h"
+#import "TGTableViewCell.h"
+#import "TGView.h"
+#import "UIView+Extension.h"
+#import "TGButton.h"
+#import "TGLabel.h"
+#import "TGManager.h"
+#import "TGUtils.h"
+#import "TGJson.h"
+#import "TGModel.h"
+//#import "TGRequest.h"
+#import "RequestDefine.h"
+#import "UIImageView+WebCache.h"
+#import "TGToast.h"
+
+#endif /* PrefixHeader_pch */
