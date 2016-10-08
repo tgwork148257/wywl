@@ -89,6 +89,8 @@
 		65F2471C1DA8C09500A3BE31 /* NewsHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F2471B1DA8C09500A3BE31 /* NewsHomeVC.m */; };
 		65F2471F1DA8C0AF00A3BE31 /* ServicesHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F2471E1DA8C0AF00A3BE31 /* ServicesHomeVC.m */; };
 		65F247221DA8C0C800A3BE31 /* NewsDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F247211DA8C0C800A3BE31 /* NewsDetailVC.m */; };
+		65F2472E1DA8C36D00A3BE31 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F2472D1DA8C36D00A3BE31 /* NewsModel.m */; };
+		65F247311DA8C39A00A3BE31 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F247301DA8C39A00A3BE31 /* NewsCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -278,6 +280,10 @@
 		65F2471E1DA8C0AF00A3BE31 /* ServicesHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesHomeVC.m; path = ../ServicesHomeVC.m; sourceTree = "<group>"; };
 		65F247201DA8C0C800A3BE31 /* NewsDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsDetailVC.h; path = ../NewsDetailVC.h; sourceTree = "<group>"; };
 		65F247211DA8C0C800A3BE31 /* NewsDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsDetailVC.m; path = ../NewsDetailVC.m; sourceTree = "<group>"; };
+		65F2472C1DA8C36D00A3BE31 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		65F2472D1DA8C36D00A3BE31 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		65F2472F1DA8C39A00A3BE31 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		65F247301DA8C39A00A3BE31 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -751,6 +757,8 @@
 		65F247241DA8C10500A3BE31 /* M */ = {
 			isa = PBXGroup;
 			children = (
+				65F2472C1DA8C36D00A3BE31 /* NewsModel.h */,
+				65F2472D1DA8C36D00A3BE31 /* NewsModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -758,6 +766,8 @@
 		65F247251DA8C10B00A3BE31 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				65F2472F1DA8C39A00A3BE31 /* NewsCell.h */,
+				65F247301DA8C39A00A3BE31 /* NewsCell.m */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -945,6 +955,7 @@
 				65F246FB1DA8B9A500A3BE31 /* SBJsonStreamParserAccumulator.m in Sources */,
 				65F246E01DA8B9A500A3BE31 /* AFURLConnectionOperation.m in Sources */,
 				65F246DA1DA8B9A500A3BE31 /* TGUtils.m in Sources */,
+				65F2472E1DA8C36D00A3BE31 /* NewsModel.m in Sources */,
 				65F246F11DA8B9A500A3BE31 /* MJRefreshNormalHeader.m in Sources */,
 				65F246EF1DA8B9A500A3BE31 /* MJRefreshBackStateFooter.m in Sources */,
 				65F2470F1DA8B9A500A3BE31 /* UIImage+MultiFormat.m in Sources */,
@@ -1000,6 +1011,7 @@
 				65F247191DA8C07B00A3BE31 /* MeHomeVC.m in Sources */,
 				65F246E11DA8B9A500A3BE31 /* AFURLRequestSerialization.m in Sources */,
 				65F246F91DA8B9A500A3BE31 /* SBJsonParser.m in Sources */,
+				65F247311DA8C39A00A3BE31 /* NewsCell.m in Sources */,
 				65F246DB1DA8B9A500A3BE31 /* AFHTTPRequestOperation.m in Sources */,
 				65F246E21DA8B9A500A3BE31 /* AFURLResponseSerialization.m in Sources */,
 				65F247021DA8B9A500A3BE31 /* SBJsonUTF8Stream.m in Sources */,
